@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SeatCapture</class>
+ <widget class="QDialog" name="SeatCapture">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>408</width>
+    <height>312</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>30</y>
+     <width>271</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Click the button below for seat information!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="a_button">
+   <property name="geometry">
+    <rect>
+     <x>63</x>
+     <y>117</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(210, 234, 255)</string>
+   </property>
+   <property name="text">
+    <string>A camera</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_button">
+   <property name="geometry">
+    <rect>
+     <x>63</x>
+     <y>157</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(210, 234, 255)</string>
+   </property>
+   <property name="text">
+    <string>B camera</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="c_button">
+   <property name="geometry">
+    <rect>
+     <x>63</x>
+     <y>197</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(210, 234, 255)</string>
+   </property>
+   <property name="text">
+    <string>C camera</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="d_button">
+   <property name="geometry">
+    <rect>
+     <x>63</x>
+     <y>237</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(210, 234, 255)</string>
+   </property>
+   <property name="text">
+    <string>D camera</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>163</x>
+     <y>119</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Seat information :</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="finish">
+   <property name="geometry">
+    <rect>
+     <x>337</x>
+     <y>277</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Finish</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="seat_info">
+   <property name="geometry">
+    <rect>
+     <x>164</x>
+     <y>137</y>
+     <width>171</width>
+     <height>121</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>32</x>
+     <y>58</y>
+     <width>341</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>9</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Destination Folder :</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="file_name">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>9</y>
+      <width>181</width>
+      <height>16</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="search_file">
+    <property name="geometry">
+     <rect>
+      <x>303</x>
+      <y>1</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url("file.png");
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>13</width>
+      <height>13</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
